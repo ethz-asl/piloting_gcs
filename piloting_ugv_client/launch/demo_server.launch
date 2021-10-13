@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+   <node name="gcs_alarm" pkg="piloting_ugv_client" type="gcs_alarm" output="screen"/>
+</launch>

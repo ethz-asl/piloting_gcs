@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+   <arg name="config_file_path" default="$(find piloting_ugv_client)/config/client_config.yaml"/>
+   
+   <node name="piloting_ugv_client" pkg="piloting_ugv_client" type="client_node" output="screen">
+      <rosparam command="load" file="$(arg config_file_path)"/>
+   </node>
+</launch>
