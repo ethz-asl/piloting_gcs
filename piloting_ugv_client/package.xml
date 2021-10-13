@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>piloting_ugv_client</name>
+  <version>0.0.0</version>
+  <description>The piloting_ugv_client package</description>
+
+  <maintainer email="giuseppe@todo.todo">giuseppe</maintainer>
+
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>piloting-mavsdk-ros</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  
+</package>
