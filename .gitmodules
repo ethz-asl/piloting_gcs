@@ -1,0 +1,7 @@
+
+[submodule "submodules/piloting-mavsdk-ros"]
+	path = submodules/piloting-mavsdk-ros
+	url = git@github.com:fada-catec/piloting-mavsdk-ros.git
+[submodule "submodules/piloting-mavsdk"]
+	path = submodules/piloting-mavsdk
+	url = git@github.com:fada-catec/piloting-mavsdk.git
